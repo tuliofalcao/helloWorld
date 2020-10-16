@@ -13,7 +13,8 @@
     "react": "~16.13.1",
     "react-dom": "~16.13.1",
     "react-native": "0.61.4",
-    "react-native-web": "~0.12.3"
+    "react-native-web": "~0.12.3",
+    "yargs-parser": "^13.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
