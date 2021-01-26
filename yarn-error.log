@@ -1,25 +1,30 @@
 Arguments: 
-  /usr/bin/node /usr/share/yarn/bin/yarn.js upgrade
+  C:\Program Files\nodejs\node.exe C:\Users\Aluno\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js upgrade node-fetch^@2.6.1
 
 PATH: 
-  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+  C:\Users\Aluno\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Aluno\bin;C:\Python39\Scripts;C:\Python39;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Users\Aluno\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
 
 Yarn version: 
-  1.22.5
+  1.22.10
 
 Node version: 
-  10.19.0
+  14.15.4
 
 Platform: 
-  linux x64
+  win32 x64
 
 Trace: 
-  SyntaxError: /home/tulio/projetos/helloWorld/package.json: Unexpected string in JSON at position 411
-      at JSON.parse (<anonymous>)
-      at /usr/share/yarn/lib/cli.js:1625:59
-      at Generator.next (<anonymous>)
-      at step (/usr/share/yarn/lib/cli.js:310:30)
-      at /usr/share/yarn/lib/cli.js:321:13
+  Error: https://registry.yarnpkg.com/node-fetch%5E: Not found
+      at Request.params.callback [as _callback] (C:\Users\Aluno\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\Aluno\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Users\Aluno\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Users\Aluno\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
 
 npm manifest: 
   {
@@ -38,7 +43,6 @@ npm manifest:
       "react-dom": "~16.13.1",
       "react-native": "^0.63.3",
       "react-native-web": "~0.12.3"
-      "node-fetch": ">=2.6.1"
     },
     "devDependencies": {
       "@babel/core": "^7.8.6",
