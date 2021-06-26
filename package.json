@@ -8,15 +8,17 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "~37.0.3",
+    "compare-urls": "2.0.0",
+    "expo": "37.0.12",
     "logkitty": "^0.7.0",
     "node-fetch": "^2.6.1",
     "normalize-url": "^4.5.1",
+    "plist": "3.0.1",
     "react": "~16.13.1",
     "react-dom": "~16.13.1",
     "react-native": "^0.63.3",
     "react-native-web": "~0.12.3",
-    "ws": "^7.4.6"
+    "ws": "^5.2.3"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
